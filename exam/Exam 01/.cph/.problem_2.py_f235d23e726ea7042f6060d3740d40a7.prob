@@ -1,0 +1,1 @@
+{"name":"Local: problem_2","url":"e:\\phitron\\Python\\exam\\Exam 01\\problem_2.py","tests":[{"id":1696002631812,"input":"4\n3 3 3 3","output":"1"},{"id":1696007285934,"input":"6\n1 2 2 3 3 3","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\phitron\\Python\\exam\\Exam 01\\problem_2.py","group":"local","local":true}

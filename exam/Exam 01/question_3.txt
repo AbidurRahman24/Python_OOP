@@ -1,0 +1,42 @@
+Write the difference between List and Dictionary of Python?
+ans: 
+ LIST: 
+    1. The list is a collection of index value pairs like that of the array in C++.
+    2. list are ordered and mutable.
+    3. Elements in a list are accessed by their index.
+    4. Lists are created using square brackets []
+
+ Dictionary: 
+    1. The dictionary is a hashed structure of the key and value pairs.
+    2. Dictionary are unordered and mutable collections of key-value pair.
+    3. Element in a dictionary are accessed by their key.
+    4. Dictionaries are created using curly braces {}
+
+
+Write about *args and **kwargs of Python with proper examples?
+ ans: 
+    * args: If we are don't know how many arguments that will be passed into our function, add a * before the parameter name in the function definition.
+
+    def all_sum(num1, num2, *numbers):
+    sum = 0 + num1 + num2
+    for num in numbers:
+        sum = sum + num
+    return sum
+
+total = all_sum(20,30,10,40)
+print(total)
+
+    **kwargs: **kwargs is used to pass a variable number of keyword arguments to a function. When we use **kwargs in a function definition, it allows the function to accept any number of keyword arguments, and these arguments are collected into a dictionary.
+
+    # def famous(**kargs)
+def famous_name(first, last, **addition):
+    name = f' {first} {last}'
+    # print(addition['title'])
+    for key, value in addition.items():
+        print(key, value)
+    return name
+
+name = famous_name(first='Taher', last='Ali', title="Hujur", title2="Shayokh", last2='taheri')
+print(name)
+
+Take a number from the user and draw a pyramid using PyAutoGUI
