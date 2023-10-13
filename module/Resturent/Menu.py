@@ -46,4 +46,9 @@ class Menu:
             self.burgers.remove(burger)
 
     def show_menu(self):
-        
+        for pizza in self.pizzas:
+            print(f'name: {pizza.name} price: {pizza.price}')
+        for burger in self.burgers:
+            print(f'name: {burger.name} price: {burger.price}')
+        for drink in self.drinks:
+            print(f'name: {drink.name} price: {drink.price}')
